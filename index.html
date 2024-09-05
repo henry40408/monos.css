@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>monos.css</title>
+    <link rel="stylesheet" href="./monos.css" />
+  </head>
+  <body>
+    <main>
+      <h1>monos.css</h1>
+      <blockquote>a class-less stylesheet</blockquote>
+      <h2>table of contents</h2>
+      <ul>
+        <li><a href="#features">features</a></li>
+        <li><a href="#installation">installation</a></li>
+        <li><a href="#text">text</a></li>
+        <ul>
+          <li><a href="#headings">headings</a></li>
+          <li><a href="#paragraphs">paragraphs</a></li>
+          <li><a href="#blockquotes">blockquotes</a></li>
+          <li><a href="#lists">lists</a></li>
+          <li><a href="#horizontal-rules">horizontal rules</a></li>
+          <li><a href="#tabular-data">tabular data</a></li>
+          <li><a href="#code">code</a></li>
+          <li><a href="#inline-elements">inline elements</a></li>
+        </ul>
+        <li><a href="#embedded-content">embedded content</a></li>
+        <ul>
+          <li><a href="#images">images</a></li>
+          <li><a href="#audio">audio</a></li>
+          <li><a href="#video">video</a></li>
+          <li><a href="#canvas">canvas</a></li>
+          <li><a href="#meter">meter</a></li>
+          <li><a href="#progress">progress</a></li>
+          <li><a href="#inline-svg">inline SVG</a></li>
+          <li><a href="#iframes">iframes</a></li>
+        </ul>
+        <li><a href="#form-elements">form elements</a></li>
+        <ul>
+          <li><a href="#input-fields">input fields</a></li>
+          <li><a href="#select-menus">select menus</a></li>
+          <li><a href="#checkboxes">checkboxes</a></li>
+          <li><a href="#radio-buttons">radio buttons</a></li>
+          <li><a href="#textareas">textareas</a></li>
+          <li><a href="#html5-inputs">HTML5 inputs</a></li>
+          <li><a href="#action-buttons">action buttons</a></li>
+        </ul>
+      </ul>
+      <h2 id="text">text</h2>
+      <h3 id="headings">headings</h3>
+      <h1>Beetles</h1>
+      <h2>External morphology</h2>
+      <h3>Head</h3>
+      <h4>Mouthparts</h4>
+      <h3>Thorax</h3>
+      <h4>Prothorax</h4>
+      <h4>Pterothorax</h4>
+      <h3 id="paragraphs">paragraphs</h3>
+      <p>
+        Geckos are a group of usually small, usually nocturnal lizards. They are
+        found on every continent except Antarctica.
+      </p>
+      <p>
+        Some species live in houses where they hunt insects attracted by
+        artificial light.
+      </p>
+      <h3 id="blockquotes">blockquotes</h3>
+      <blockquote cite="https://www.huxley.net/bnw/four.html">
+        Words can be like X-rays, if you use them properly—they’ll go through
+        anything. You read and you’re pierced.
+      </blockquote>
+      <h3 id="lists">lists</h3>
+      <ol>
+        <li>Mix flour, baking powder, sugar, and salt.</li>
+        <li>In another bowl, mix eggs, milk, and oil.</li>
+        <li>Stir both mixtures together.</li>
+        <li>Fill muffin tray 3/4 full.</li>
+        <li>Bake for 20 minutes.</li>
+      </ol>
+      <ul>
+        <li>Milk</li>
+        <li>
+          Cheese
+          <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+          </ul>
+        </li>
+      </ul>
+      <h3 id="horizontal-rules">horizontal rules</h3>
+      <hr />
+      <h3 id="tabular-data">tabular data</h3>
+      <table>
+        <caption>
+          Front-end web developer course 2021
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Person</th>
+            <th scope="col">Most interest in</th>
+            <th scope="col">Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Chris</th>
+            <td>HTML tables</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <th scope="row">Dennis</th>
+            <td>Web accessibility</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <th scope="row">Sarah</th>
+            <td>JavaScript frameworks</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <th scope="row">Karen</th>
+            <td>Web performance</td>
+            <td>36</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">Average age</th>
+            <td>33</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h3 id="code">code</h3>
+      <div>
+        Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to
+        re-render an MDN page.
+      </div>
+      <div>
+        The <code>push()</code> method adds one or more elements to the end of
+        an array and returns the new length of the array.
+      </div>
+      <div>
+        <samp>Keyboard not found <br />Press F1 to continue</samp>
+      </div>
+      <h4>preformatted text</h4>
+      <pre>
+  L          TE
+    A       A
+      C    V
+       R A
+       DOU
+       LOU
+      REUSE
+      QUE TU
+      PORTES
+    ET QUI T'
+    ORNE O CI
+     VILISÉ
+    OTE-  TU VEUX
+     LA    BIEN
+    SI      RESPI
+            RER       - Apollinaire
+</pre
+      >
+      <h3 id="inline-elements">inline elements</h3>
+      <p><a href="https://example.com">Website</a></p>
+      <p>
+        ...the most important rule, the rule you can never forget, no matter how
+        much he cries, no matter how much he begs:
+        <strong>never feed him after midnight</strong>.
+      </p>
+      <p>Get out of bed <em>now</em>!</p>
+      <p>
+        The two most popular science courses offered by the school are
+        <b>chemistry</b> (the study of chemicals and the composition of
+        substances) and <b>physics</b> (the study of the nature and properties
+        of matter and energy).
+      </p>
+      <p>I looked at it and thought <i>This can't be real!</i></p>
+      <p>
+        You could use this element to highlight <u>speling</u> mistakes, so the
+        writer can <u>corect</u> them.
+      </p>
+      <p>
+        There is <del>nothing</del> <ins>no code</ins> either good or bad, but
+        <del>thinking</del> <ins>running it</ins> makes it so.
+      </p>
+      <p>
+        <s>There will be a few tickets available at the box office tonight.</s>
+        SOLD OUT!
+      </p>
+      <p>
+        <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> =
+        <var>c<sup>2</sup></var>
+      </p>
+      <p>
+        Almost every developer's favorite molecule is
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as
+        "caffeine."
+      </p>
+      <p>
+        MDN Web Docs is a learning platform for Web technologies and the
+        software that powers the Web.
+        <small>
+          The content is licensed under a Creative Commons
+          Attribution-ShareAlike 2.5 Generic License.
+        </small>
+      </p>
+      <p>
+        You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your
+        <abbr>HTML</abbr> (HyperText Markup Language). Using style sheets, you
+        can keep your <abbr>CSS</abbr> presentation layer and
+        <abbr>HTML</abbr> content layer separate. This is called "separation of
+        concerns."
+      </p>
+      <p>
+        When Dave asks HAL to open the pod bay door, HAL answers:
+        <q
+          cite="https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921&ref_=ext_shr_lnk"
+        >
+          I'm sorry, Dave. I'm afraid I can't do that.
+        </q>
+      </p>
+      <figure>
+        <blockquote>
+          <p>
+            It was a bright cold day in April, and the clocks were striking
+            thirteen.
+          </p>
+        </blockquote>
+        <figcaption>
+          First sentence in
+          <cite
+            ><a href="http://www.george-orwell.org/1984/0.html"
+              >Nineteen Eighty-Four</a
+            ></cite
+          >
+          by George Orwell (Part 1, Chapter 1).
+        </figcaption>
+      </figure>
+      <p>
+        A <dfn id="def-validator">validator</dfn> is a program that checks for
+        syntax errors in code or documents.
+      </p>
+      <p>
+        Several species of <mark>salamander</mark> inhabit the temperate
+        rainforest of the Pacific Northwest.
+      </p>
+      <p>
+        The volume of a box is <var>l</var> × <var>w</var> × <var>h</var>, where
+        <var>l</var> represents the length, <var>w</var> the width and
+        <var>h</var> the height of the box.
+      </p>
+      <p>
+        The Cure will be celebrating their 40th anniversary on
+        <time datetime="2018-07-07">July 7</time> in London's Hyde Park.
+      </p>
+      <h2 id="embedded-content">embedded content</h2>
+      <h3 id="images">images</h3>
+      <h4>no <coed>figure</coed> element</h4>
+      <h4>
+        wrapped in a <code>figure</code> element, no <code>figcaption</code>
+      </h4>
+      <h4>
+        Wrapped in a <code>figure</code> element, with a <code>figcaption</code>
+      </h4>
+      <h3 id="audio">audio</h3>
+      <p>
+        <audio
+          controls
+          src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+        ></audio>
+        <a
+          href="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+          >Download audio</a
+        >
+      </p>
+      <h3 id="video">video</h3>
+      <p>
+        <video controls width="250">
+          <source
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            type="video/mp4"
+          />
+          Download the
+          <a
+            href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+            >WEBM</a
+          >
+          or
+          <a
+            href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            >MP4</a
+          >
+          video.
+        </video>
+      </p>
+      <h3 id="canvas">canvas</h3>
+      <canvas width="120" height="120">
+        An alternative text describing what your canvas displays.
+      </canvas>
+      <h3 id="meter">meter</h3>
+      <meter
+        id="fuel"
+        min="0"
+        max="100"
+        low="33"
+        high="66"
+        optimum="80"
+        value="50"
+      >
+        at 50/100
+      </meter>
+      <h3 id="progress">progress</h3>
+      <progress id="file" max="100" value="70">70%</progress>
+      <h3 id="inline-svg">inline SVG</h3>
+      <svg
+        viewBox="0 0 300 100"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="red"
+        fill="grey"
+      >
+        <circle cx="50" cy="50" r="40" />
+        <circle cx="150" cy="50" r="4" />
+
+        <svg viewBox="0 0 10 10" x="200" width="100">
+          <circle cx="5" cy="5" r="4" />
+        </svg>
+      </svg>
+      <h3 id="iframes">iframes</h3>
+      <iframe
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+      >
+      </iframe>
+      <h2 id="form-elements">form elements</h2>
+      <fieldset>
+        <legend id="input-fields">input fields</legend>
+        <p>
+          <label for="text-input">text input</label>
+          <input type="text" id="text-input" />
+          <label for="password">password</label>
+          <input type="password" id="password" />
+          <label for="web-address">web address</label>
+          <input type="url" id="web-address" />
+          <label for="email-address">email address</label>
+          <input type="email" id="email-address" />
+          <label for="phone-number">phone number</label>
+          <input type="phone" id="phone-number" />
+          <label for="search">search</label>
+          <input type="search" id="search" />
+          <label for="number-input">number input</label>
+          <input type="number" id="number-input" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="select-menus">select menus</legend>
+        <p>
+          <label for="pet-select">Choose a pet:</label>
+          <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="checkboxes">checkboxes</legend>
+        <p>
+          <input type="checkbox" id="scales" name="scales" checked />
+          <label for="scales">Scales</label>
+        </p>
+        <p>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Horns</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="radio-buttons">radio buttons</legend>
+        <p>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Huey</label>
+        </p>
+        <p>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Dewey</label>
+        </p>
+        <p>
+          <input type="radio" id="louie" name="drone" value="louie" />
+          <label for="louie">Louie</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="textareas">textareas</legend>
+        <p>
+          <textarea id="story" name="story" rows="5" cols="33">
+It was a dark and stormy night...
+</textarea
+          >
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="html5-inputs">HTML5 inputs</legend>
+        <p>
+          <input type="color" id="head" name="head" value="#e66465" />
+          <label for="head">Head</label>
+        </p>
+        <p>
+          <label for="tentacles">Number of tentacles (10-100):</label>
+          <input
+            type="number"
+            id="tentacles"
+            name="tentacles"
+            min="10"
+            max="100"
+          />
+        </p>
+        <p>
+          <input type="range" id="volume" name="volume" min="0" max="11" />
+          <label for="volume">Volume</label>
+        </p>
+        <p>
+          <label for="start">Start date:</label>
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2018-07-22"
+            min="2018-01-01"
+            max="2018-12-31"
+          />
+        </p>
+        <p>
+          <label for="start">Start month:</label>
+          <input
+            type="month"
+            id="start"
+            name="start"
+            min="2018-03"
+            value="2018-05"
+          />
+        </p>
+        <p>
+          <label for="camp-week">Choose a week in May or June:</label>
+          <input
+            type="week"
+            name="week"
+            id="camp-week"
+            min="2018-W18"
+            max="2018-W26"
+            required
+          />
+        </p>
+        <p>
+          <label for="meeting-time">Choose a time for your appointment:</label>
+          <input
+            type="datetime-local"
+            id="meeting-time"
+            name="meeting-time"
+            value="2018-06-12T19:30"
+            min="2018-06-07T00:00"
+            max="2018-06-14T00:00"
+          />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend id="action-buttons">action buttons</legend>
+        <input type="submit" value="submit" />
+        <input type="button" value="button" />
+        <input type="reset" value="reset" />
+        <button type="submit">submit</button>
+        <button type="button">button</button>
+        <button type="reset">reset</button>
+      </fieldset>
+    </main>
+  </body>
+</html>
