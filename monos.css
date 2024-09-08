@@ -382,6 +382,10 @@ samp {
   line-height: var(--line-height);
 }
 
+figure {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -458,8 +462,13 @@ ul ul {
   margin: 0 0 0 2ch;
 }
 
+small {
+  line-height: 0;
+}
+
 table {
   border-collapse: collapse;
+  margin: 0 0 calc(var(--border-width) * -1) 0;
 }
 
 th,
